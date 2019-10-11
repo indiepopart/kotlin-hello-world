@@ -1,4 +1,4 @@
-package com.okta.developers.kotlin
+package com.okta.developer
 
 fun String.sort(): List<Char> = this.toList().sorted()
 

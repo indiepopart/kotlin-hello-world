@@ -1,4 +1,4 @@
-package com.okta.developers.kotlin
+package com.okta.developer
 
 import org.junit.Test
 import kotlin.test.assertEquals

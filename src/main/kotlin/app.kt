@@ -1,12 +1,9 @@
-package com.okta.developers.kotlin
-
-import java.util.*
+package com.okta.developer
 
 fun main() {
 
-    val scan = Scanner(System.`in`)
-    val string = scan.nextLine()
-    val result = Anagrams().count(string)
+    val string = readLine()
+    val result = string?.let { Anagrams().count(it) }
 
     println(result)
 }
